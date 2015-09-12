@@ -3,6 +3,9 @@ Allen Downey
 
 Supporting code for a video series on best practices for exploratory data analysis.
 
+To run the notebooks in the repo on Binder, click here:
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/AllenDowney/DataExploration)
+
 
 ## Software setup
 This repository contains the software I'll demonstrate in the videos.  If you have a Git client installed, you should be able to download the code by running:
