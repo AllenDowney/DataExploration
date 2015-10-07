@@ -211,7 +211,7 @@ def EstimateHazard(complete, ongoing, label='', jitter=0, verbose=False):
 
         lams[t] = ended / at_risk
         if verbose:
-            print(t, at_risk, ended, censored, lams[t])
+            print(t, at_risk, ended, censored, lams[t], sep='\t')
         at_risk -= ended + censored
 
     return HazardFunction(lams, label=label)
